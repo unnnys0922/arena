@@ -539,12 +539,13 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.2156,
+        "completion": 0.6468,
+        "cacheRead": 0.01,
         "cacheWrite": null
       },
-      "empirical": false
+      "empirical": true,
+      "verifiedThrough": "2026-10-16T14:07:06.359Z"
     },
     {
       "id": "GPT 6 Sol (Max)",
