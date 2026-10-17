@@ -1,3 +1,25 @@
 {
-  "feature":false
+  "feature": true,
+  "profiles": [
+    {
+      "family": "claude",
+      "min": 7.8268,
+      "max": 16.9715
+    },
+    {
+      "family": "gemini",
+      "min": 14.7008,
+      "max": 34.1325
+    },
+    {
+      "family": "gpt",
+      "min": 0.7988,
+      "max": 2.5589
+    },
+    {
+      "family": "muse",
+      "min": 7.9273,
+      "max": 17.2824
+    }
+  ]
 }
