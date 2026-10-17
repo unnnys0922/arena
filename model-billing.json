@@ -36,10 +36,10 @@
         "cacheWrite": 0.125
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
-        "cacheWrite": null
+        "prompt": 0.1,
+        "completion": 0.5,
+        "cacheRead": 0.01,
+        "cacheWrite": 0.125
       },
       "empirical": false
     },
@@ -78,10 +78,10 @@
         "cacheWrite": 12.5
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
-        "cacheWrite": null
+        "prompt": 10,
+        "completion": 50,
+        "cacheRead": 0.25,
+        "cacheWrite": 12.5
       },
       "empirical": false
     },
@@ -141,10 +141,10 @@
         "cacheWrite": 5
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
+        "prompt": 4,
+        "completion": 20,
         "cacheRead": null,
-        "cacheWrite": null
+        "cacheWrite": 5
       },
       "empirical": false
     },
@@ -519,9 +519,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 10,
+        "completion": 50,
+        "cacheRead": 1,
         "cacheWrite": null
       },
       "empirical": false
@@ -582,13 +582,13 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": 0.32,
-        "completion": 0.87,
-        "cacheRead": 0.01,
+        "prompt": 0.242,
+        "completion": 0.6578,
+        "cacheRead": 0.0076,
         "cacheWrite": null
       },
       "empirical": true,
-      "verifiedThrough": "2026-10-17T01:51:19.346Z"
+      "verifiedThrough": "2026-10-17T06:19:35.014Z"
     },
     {
       "id": "Grok 4.5",
