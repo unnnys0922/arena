@@ -123,7 +123,7 @@
         "prompt": 4,
         "completion": 20,
         "cacheRead": 0.2,
-        "cacheWrite": null
+        "cacheWrite": 0.001
       },
       "empirical": false
     },
