@@ -1,5 +1,5 @@
 {
-  "feature":true,
+  "feature": true,
   "profiles": [
     {
       "id": "Muse Wonder (Max)",
@@ -15,9 +15,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 4,
+        "completion": 20,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
@@ -33,13 +33,13 @@
         "prompt": 0.1,
         "completion": 0.5,
         "cacheRead": 0.01,
-        "cacheWrite": 0.125
+        "cacheWrite": null
       },
       "referenceBill": {
         "prompt": 0.1,
         "completion": 0.5,
         "cacheRead": 0.01,
-        "cacheWrite": 0.125
+        "cacheWrite": null
       },
       "empirical": false
     },
@@ -54,12 +54,12 @@
         "prompt": 10,
         "completion": 50,
         "cacheRead": 1,
-        "cacheWrite": 12.5
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 10,
+        "completion": 50,
+        "cacheRead": 1,
         "cacheWrite": null
       },
       "empirical": false
@@ -75,33 +75,12 @@
         "prompt": 10,
         "completion": 50,
         "cacheRead": 0.25,
-        "cacheWrite": 12.5
+        "cacheWrite": null
       },
       "referenceBill": {
         "prompt": 10,
         "completion": 50,
         "cacheRead": 0.25,
-        "cacheWrite": 12.5
-      },
-      "empirical": false
-    },
-    {
-      "id": "Claude Opus 4.8 (High)",
-      "match": {
-        "mode": "auto",
-        "source": "openrouter",
-        "pricingStrategy": "agent_p50"
-      },
-      "ratesPerMillion": {
-        "prompt": 5,
-        "completion": 25,
-        "cacheRead": 0.5,
-        "cacheWrite": 6.25
-      },
-      "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
         "cacheWrite": null
       },
       "empirical": false
@@ -117,12 +96,12 @@
         "prompt": 5,
         "completion": 25,
         "cacheRead": 0.5,
-        "cacheWrite": 6.25
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 5,
+        "completion": 25,
+        "cacheRead": 0.5,
         "cacheWrite": null
       },
       "empirical": false
@@ -137,14 +116,14 @@
       "ratesPerMillion": {
         "prompt": 4,
         "completion": 20,
-        "cacheRead": null,
-        "cacheWrite": 5
+        "cacheRead": 0.2,
+        "cacheWrite": null
       },
       "referenceBill": {
         "prompt": 4,
         "completion": 20,
-        "cacheRead": null,
-        "cacheWrite": 5
+        "cacheRead": 0.2,
+        "cacheWrite": null
       },
       "empirical": false
     },
@@ -159,12 +138,12 @@
         "prompt": 2,
         "completion": 10,
         "cacheRead": 0.2,
-        "cacheWrite": 2.5
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 10,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
@@ -177,15 +156,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": 0.2,
-        "cacheWrite": 2.5
+        "prompt": 2,
+        "completion": 10,
+        "cacheRead": 0.1,
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 10,
+        "cacheRead": 0.1,
         "cacheWrite": null
       },
       "empirical": false
@@ -198,36 +177,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 1,
-        "completion": 6,
+        "prompt": 2,
+        "completion": 12,
         "cacheRead": 0.2,
-        "cacheWrite": 0.375
-      },
-      "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
-        "cacheWrite": null
-      },
-      "empirical": false
-    },
-    {
-      "id": "Gemini 3.6 Flash (High)",
-      "match": {
-        "mode": "auto",
-        "source": "openrouter",
-        "pricingStrategy": "agent_p50"
-      },
-      "ratesPerMillion": {
-        "prompt": 0.75,
-        "completion": 3.75,
-        "cacheRead": 0.075,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 12,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
@@ -240,15 +198,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 0.75,
-        "completion": 3.75,
-        "cacheRead": 0.075,
+        "prompt": 1.5,
+        "completion": 7.5,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.5,
+        "completion": 7.5,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "empirical": false
@@ -261,15 +219,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 0.75,
-        "completion": 3.75,
-        "cacheRead": 0.075,
-        "cacheWrite": 0.0416666667
+        "prompt": 1.5,
+        "completion": 7.5,
+        "cacheRead": 0.15,
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.5,
+        "completion": 7.5,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "empirical": false
@@ -282,15 +240,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 2,
-        "completion": 10,
-        "cacheRead": null,
+        "prompt": 4,
+        "completion": 20,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 4,
+        "completion": 20,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
@@ -309,9 +267,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.25,
+        "completion": 4.25,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "empirical": false
@@ -330,9 +288,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.25,
+        "completion": 4.25,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "empirical": false
@@ -351,9 +309,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.25,
+        "completion": 4.25,
+        "cacheRead": 0.15,
         "cacheWrite": null
       },
       "empirical": false
@@ -366,14 +324,14 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 0.75,
-        "completion": 3.75,
+        "prompt": 1.5,
+        "completion": 7.5,
         "cacheRead": null,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
+        "prompt": 1.5,
+        "completion": 7.5,
         "cacheRead": null,
         "cacheWrite": null
       },
@@ -387,21 +345,21 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 0.68,
-        "completion": 2.09,
-        "cacheRead": 0.07,
+        "prompt": 1.36,
+        "completion": 4.18,
+        "cacheRead": 0.14,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 1.36,
+        "completion": 4.18,
+        "cacheRead": 0.14,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 5.4 (High)",
+      "id": "GPT-5.4 (High)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -414,15 +372,15 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2.5,
+        "completion": 15,
+        "cacheRead": 0.25,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 5.5 (标准/xHigh)",
+      "id": "GPT-5.5",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -435,15 +393,36 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 5,
+        "completion": 30,
+        "cacheRead": 0.5,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 5.6 Luna (xHigh)",
+      "id": "GPT-5.5 (xHigh)",
+      "match": {
+        "mode": "auto",
+        "source": "openrouter",
+        "pricingStrategy": "agent_p50"
+      },
+      "ratesPerMillion": {
+        "prompt": 5,
+        "completion": 30,
+        "cacheRead": 0.5,
+        "cacheWrite": null
+      },
+      "referenceBill": {
+        "prompt": 5,
+        "completion": 30,
+        "cacheRead": 0.5,
+        "cacheWrite": null
+      },
+      "empirical": false
+    },
+    {
+      "id": "GPT-5.6 Luna (xHigh)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -453,18 +432,18 @@
         "prompt": 0.2,
         "completion": 1.2,
         "cacheRead": 0.02,
-        "cacheWrite": 0.25
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.2,
+        "completion": 1.2,
+        "cacheRead": 0.02,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 5.6 Sol (xHigh)",
+      "id": "GPT-5.6 Sol (xHigh)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -473,19 +452,19 @@
       "ratesPerMillion": {
         "prompt": 4,
         "completion": 20,
-        "cacheRead": 0.2,
-        "cacheWrite": 2.5
+        "cacheRead": 0.4,
+        "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 4,
+        "completion": 20,
+        "cacheRead": 0.4,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 5.6 Terra (xHigh)",
+      "id": "GPT-5.6 Terra (xHigh)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -498,15 +477,15 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 12,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 6 Astra (Max)",
+      "id": "GPT-6 Astra (Max)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -527,7 +506,7 @@
       "empirical": false
     },
     {
-      "id": "GPT 6 Luna (Max)",
+      "id": "GPT-6 Luna (Max)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -540,36 +519,36 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.1,
+        "completion": 0.5,
+        "cacheRead": 0.01,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 6 Sol (Max)",
+      "id": "GPT-6 Sol (Max)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 1,
-        "completion": 5,
-        "cacheRead": 0.1,
+        "prompt": 2,
+        "completion": 10,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 10,
+        "cacheRead": 0.2,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "GPT 6.1 Sol (Max)",
+      "id": "GPT-6.1 Sol (Max)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -591,7 +570,7 @@
       "verifiedThrough": "2026-10-17T06:19:35.014Z"
     },
     {
-      "id": "Grok 4.5",
+      "id": "Grok 4.6 (xHigh)",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -600,34 +579,13 @@
       "ratesPerMillion": {
         "prompt": 2,
         "completion": 6,
-        "cacheRead": 0.3,
-        "cacheWrite": null
-      },
-      "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
-        "cacheWrite": null
-      },
-      "empirical": false
-    },
-    {
-      "id": "Grok 4.6 (xHigh)",
-      "match": {
-        "mode": "auto",
-        "source": "openrouter",
-        "pricingStrategy": "agent_p50"
-      },
-      "ratesPerMillion": {
-        "prompt": null,
-        "completion": null,
         "cacheRead": 0.5,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 6,
+        "cacheRead": 0.5,
         "cacheWrite": null
       },
       "empirical": false
@@ -646,9 +604,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 2,
+        "completion": 6,
+        "cacheRead": 0.5,
         "cacheWrite": null
       },
       "empirical": false
@@ -661,21 +619,21 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 1,
+        "prompt": 0.9,
         "completion": 4.05,
-        "cacheRead": 0.17,
+        "cacheRead": 0.16,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.9,
+        "completion": 4.05,
+        "cacheRead": 0.16,
         "cacheWrite": null
       },
       "empirical": false
     },
     {
-      "id": "Inkling Small",
+      "id": "Inkling-Small",
       "match": {
         "mode": "auto",
         "source": "openrouter",
@@ -688,9 +646,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.45,
+        "completion": 1.2,
+        "cacheRead": 0.1,
         "cacheWrite": null
       },
       "empirical": false
@@ -703,15 +661,15 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": 0.09,
-        "completion": 0.36,
-        "cacheRead": 0.018,
+        "prompt": 0.3,
+        "completion": 1.2,
+        "cacheRead": 0.06,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.3,
+        "completion": 1.2,
+        "cacheRead": 0.06,
         "cacheWrite": null
       },
       "empirical": false
@@ -724,15 +682,36 @@
         "pricingStrategy": "agent_p50"
       },
       "ratesPerMillion": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": 0.12,
+        "prompt": 0.5,
+        "completion": 2.2,
+        "cacheRead": 0.1,
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": null,
-        "completion": null,
-        "cacheRead": null,
+        "prompt": 0.5,
+        "completion": 2.2,
+        "cacheRead": 0.1,
+        "cacheWrite": null
+      },
+      "empirical": false
+    },
+    {
+      "id": "Beam 1.0 501B A23B",
+      "match": {
+        "mode": "auto",
+        "source": "openrouter",
+        "pricingStrategy": "agent_p50"
+      },
+      "ratesPerMillion": {
+        "prompt": 1,
+        "completion": 3,
+        "cacheRead": 0.1,
+        "cacheWrite": null
+      },
+      "referenceBill": {
+        "prompt": 1,
+        "completion": 3,
+        "cacheRead": 0.1,
         "cacheWrite": null
       },
       "empirical": false
