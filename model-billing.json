@@ -1,4 +1,5 @@
 {
+  "feature":true,
   "profiles": [
     {
       "id": "Muse Wonder (Max)",
@@ -539,13 +540,12 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": 0.2156,
-        "completion": 0.6468,
-        "cacheRead": 0.01,
+        "prompt": null,
+        "completion": null,
+        "cacheRead": null,
         "cacheWrite": null
       },
-      "empirical": true,
-      "verifiedThrough": "2026-10-16T14:07:06.359Z"
+      "empirical": false
     },
     {
       "id": "GPT 6 Sol (Max)",
@@ -582,13 +582,13 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": 0.2156,
-        "completion": 0.6468,
+        "prompt": 0.32,
+        "completion": 0.87,
         "cacheRead": 0.01,
         "cacheWrite": null
       },
       "empirical": true,
-      "verifiedThrough": "2026-10-16T09:26:38.143Z"
+      "verifiedThrough": "2026-10-17T01:51:19.346Z"
     },
     {
       "id": "Grok 4.5",
