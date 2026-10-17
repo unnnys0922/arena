@@ -561,9 +561,9 @@
         "cacheWrite": null
       },
       "referenceBill": {
-        "prompt": 0.242,
-        "completion": 0.6578,
-        "cacheRead": 0.0076,
+        "prompt": 0.2318,
+        "completion": 0.6301,
+        "cacheRead": 0.0073,
         "cacheWrite": null
       },
       "empirical": true,
