@@ -1,3 +1,15 @@
 {
-  "feature":false
+  "feature": true,
+  "profiles": [
+    {
+      "model": "Gemini 4 Argon (High)",
+      "min": 64.1718,
+      "max": 126.2488
+    },
+    {
+      "model": "GPT 6.1 Sol (Max)",
+      "min": 24.2329,
+      "max": 48.5543
+    }
+  ]
 }
