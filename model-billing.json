@@ -117,13 +117,13 @@
         "prompt": 4,
         "completion": 20,
         "cacheRead": 0.2,
-        "cacheWrite": null
+        "cacheWrite": 5
       },
       "referenceBill": {
         "prompt": 4,
         "completion": 20,
         "cacheRead": 0.2,
-        "cacheWrite": 0.001
+        "cacheWrite": 5
       },
       "empirical": false
     },
